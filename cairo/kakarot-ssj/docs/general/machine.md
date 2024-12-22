@@ -4,7 +4,7 @@ The EVM is a stack-based computer responsible for the execution of EVM bytecode.
 It has two context-bound data structures: the stack and the memory. The stack is
 a 256bit-words based data structure used to store and retrieve intermediate
 values during the execution of opcodes. The memory is a byte-addressable data
-structure organized into 32-byte words used a volatile space to store data
+structure organized into 32-byte words used volatile space to store data
 during execution. Both the stack and the memory are initialized empty at the
 start of a call context, and destroyed when a call context ends.
 
