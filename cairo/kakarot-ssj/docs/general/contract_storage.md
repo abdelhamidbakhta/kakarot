@@ -15,7 +15,7 @@ _Account state associated to an Ethereum address. Source:
 [EVM Illustrated](https://takenobu-hs.github.io/downloads/ethereum_evm_illustrated.pdf)_
 
 In traditional EVM clients, like Geth, the _world state_ is stored as a _trie_,
-and information about accounts are stored in the world state trie and can be
+and information about accounts is stored in the world state trie and can be
 retrieved through queries. Each account in the world state trie is associated
 with an account storage trie, which stores all of the information related to the
 account. When Geth updates the storage of a contract by executing the SSTORE
