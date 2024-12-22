@@ -19,7 +19,7 @@ from using dicts in self-referring data structures, instead of having one state
 per execution context that we could merge into the parent state if the context
 exits successfully or discard if the context reverts, we have one global `State`
 structs that achieves the same behavior by tracking transactional changes, which
-refers to the changes made inside the current transaction as a whole, and a
+refers to the changes made inside the current transaction as a whole, and 
 contextual changes, which refers to changes made inside the current execution
 context.
 
