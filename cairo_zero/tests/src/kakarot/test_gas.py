@@ -65,7 +65,7 @@ class TestGas:
             )
 
             # If the memory expansion is greater than 2**27 words of 32 bytes
-            # We saturate it to the hardcoded value corresponding the the gas cost of a 2**32 memory size
+            # We saturate it to the hardcoded value corresponding the gas cost of a 2**32 memory size
             expected_saturated = (
                 memory_cost_u32
                 if (words_len * 32 + expansion.expand_by) >= 2**32
