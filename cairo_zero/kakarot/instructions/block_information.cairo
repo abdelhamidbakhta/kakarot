@@ -17,7 +17,7 @@ from kakarot.stack import Stack
 from kakarot.state import State
 from utils.utils import Helpers
 
-// @title BlockInformation information opcodes.
+// @title BlockInformation opcodes.
 // @notice This file contains the functions to execute for block information opcodes.
 namespace BlockInformation {
     func exec_block_information{
