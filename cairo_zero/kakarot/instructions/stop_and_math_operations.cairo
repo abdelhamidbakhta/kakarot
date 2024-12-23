@@ -79,7 +79,7 @@ namespace StopAndMathOperations {
 
         // To cast the codeoffset opcodes_label to a model.Opcode*, we need to use it to offset
         // the current pc. We get the pc from the `get_fp_and_pc` util and assign a codeoffset (pc_label) to it.
-        // In short, this boilds down to: opcode = pc + offset - pc = offset
+        // In short, this boils down to: opcode = pc + offset - pc = offset
         let (_, pc) = get_fp_and_pc();
 
         pc_label:
@@ -91,7 +91,7 @@ namespace StopAndMathOperations {
         local stack: model.Stack* = stack;
 
         // offset is 1 (new line) + 2 (jmp + label) per opcode
-        // opcode is offset from by 0x1 (index of the first opcode)
+        // opcode is offset by 0x1 (index of the first opcode)
         tempvar offset = 2 * (opcode_number - 0x01) + 1;
 
         tempvar range_check_ptr = range_check_ptr;
