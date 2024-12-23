@@ -1010,7 +1010,7 @@ namespace CallHelper {
         }
 
         if (evm.reverted == Errors.EXCEPTIONAL_HALT) {
-            // If the call has halted exceptionnaly, the return_data is empty
+            // If the call has halted exceptionally, the return_data is empty
             // and nothing is copied to memory, and the gas is not returned;
             tempvar evm = new model.EVM(
                 message=message,
