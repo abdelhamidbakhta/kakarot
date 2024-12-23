@@ -145,7 +145,7 @@ Reach out to the maintainer at one of the following places:
 If you want to say **thank you** or/and support active development of Kakarot:
 
 - Add a [GitHub Star](https://github.com/kkrt-labs/kakarot-ssj) to the project.
-- Tweet about [Kakarot](https://twitter.com/KakarotZkEvm).
+- Tweet about [Kakarot](https://x.com/KakarotZkEvm).
 - Write interesting articles about the project on [Dev.to](https://dev.to/),
   [Medium](https://medium.com/), [Mirror](https://mirror.xyz/) or your personal
   blog.
