@@ -40,15 +40,15 @@ RUN curl -L https://foundry.paradigm.xyz -o foundry.sh \
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-transport-https \
+    build-essential \
     ca-certificates \
-    wget \
-    tar \
-    unzip \
-    jq \
     gcc \
+    jq \
     libgmp-dev \
     python3-dev \
-    build-essential \
+    tar \
+    unzip \
+    wget \
     && rm -rf /var/lib/apt/lists/*
 
 ARG GITHUB_TOKEN
