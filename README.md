@@ -41,6 +41,21 @@ future of zero-knowledge.
 We support 100% of EVM opcodes and
 [9 out of 10 precompiles](https://docs.kakarot.org/starknet/architecture/cairo-precompiles).
 
+## System Requirements
+
+Before setting up the project, ensure your system meets the following requirements:
+
+- Python 3.9 or higher
+- Node.js 16.x or higher
+- Rust toolchain (for building Cairo programs)
+- Git
+- Operating Systems:
+  - Linux (recommended)
+  - macOS
+  - Windows (via WSL2)
+
+For detailed installation instructions for each dependency, see [the contribution guide](./docs/CONTRIBUTING.md).
+
 ## Documentation
 
 ### Architecture
@@ -69,6 +84,21 @@ The set of Cairo programs in this repository are represented below:
   it forms an EVM runtime embedded inside a Starknet appchain.
 
 - ❌ Kakarot is not a compiler.
+
+### Additional Resources
+
+- [Official Documentation](https://docs.kakarot.org)
+- [Contributing Guidelines](./docs/CONTRIBUTING.md)
+- [Security Policy](./docs/SECURITY.md)
+- [Development Setup Guide](./docs/general/development_setup.md)
+- [Debugging Guide](./docs/general/decode_a_cairo_trace.md)
+- [Architecture Overview](./docs/starknet/architecture/overview.md)
+
+### Community Resources
+- [Discord Community](https://discord.gg/kakarotzkevm)
+- [Telegram Group](https://t.me/KakarotZkEvm)
+- [X/Twitter Updates](https://x.com/KakarotZkEvm)
+- [YouTube Channel](https://www.youtube.com/playlist?list=PLF3T1714MyKDwjjA8oHizXAdLNx62ka5U)
 
 ## Getting started
 
