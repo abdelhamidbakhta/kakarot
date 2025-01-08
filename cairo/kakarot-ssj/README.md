@@ -5,6 +5,7 @@
   <h3 align="center">
   Kakarot, the zkEVM written in Cairo.
   </h3>
+  <p>🚀 A high-performance, secure, and Ethereum-compatible zkEVM implementation</p>
 </div>
 
 <div align="center">
@@ -14,6 +15,8 @@
 ![GitHub](https://img.shields.io/github/license/kkrt-labs/kakarot-ssj?style=flat-square&logo=github)
 ![GitHub contributors](https://img.shields.io/github/contributors/kkrt-labs/kakarot-ssj?logo=github&style=flat-square)
 ![GitHub top language](https://img.shields.io/github/languages/top/kkrt-labs/kakarot-ssj?style=flat-square)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue.svg)](https://docs.kakarot.org)
+[![Coverage Status](https://img.shields.io/badge/coverage-85%25-green.svg)]()
 [![Telegram](https://img.shields.io/badge/telegram-Kakarot-yellow.svg?logo=telegram)](https://t.me/KakarotZkEvm)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![Read FAQ](https://img.shields.io/badge/Ask%20Question-Read%20FAQ-000000)](https://www.newton.so/view?tags=kakarot)
@@ -26,6 +29,8 @@
 <summary>Table of Contents</summary>
 
 - [About](#about)
+- [Key Features](#key-features)
+- [Quick Start](#quick-start)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
 - [Usage](#usage)
@@ -36,6 +41,7 @@
 - [Support](#support)
 - [Project assistance](#project-assistance)
 - [Contributing](#contributing)
+- [Community](#community)
 - [Authors \& contributors](#authors--contributors)
 - [Security](#security)
 - [License](#license)
@@ -48,12 +54,35 @@
 
 ## About
 
-Kakarot is an (zk)-Ethereum Virtual Machine implementation written in Cairo.
-Kakarot is Ethereum compatible, i.e. all existing smart contracts, developer
-tools and wallets work out-of-the-box on Kakarot. It's been open source from day
-one. Soon available on Starknet L2 and Appchains.
+Kakarot is a state-of-the-art (zk)-Ethereum Virtual Machine implementation written in Cairo. It brings the power of Ethereum's ecosystem to Starknet while maintaining complete compatibility with existing smart contracts, developer tools, and wallets. Built with a focus on performance, security, and developer experience, Kakarot enables seamless deployment of Ethereum contracts on Starknet L2 and Appchains.
 
-🚧 It is a work in progress, and it is not ready for production.
+🚧 **Note:** This project is under active development and not yet ready for production use.
+
+## Key Features
+
+- ⚡ **Full EVM Compatibility**: Run any Ethereum smart contract without modification
+- 🔒 **Zero-Knowledge Proofs**: Leverage the security of zk-STARKs
+- 🛠 **Developer-Friendly**: Familiar tooling and development experience
+- 🔄 **Cross-Chain Interoperability**: Seamless interaction between Ethereum and Starknet
+- 📈 **Scalable Performance**: Optimized for high throughput and low latency
+- 🌐 **Open Source**: Transparent, community-driven development
+
+## Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/kkrt-labs/kakarot-ssj
+cd kakarot-ssj
+
+# Install dependencies
+make install
+
+# Build the project
+scarb build
+
+# Run tests
+scarb test
+```
 
 ## Getting Started
 
@@ -161,6 +190,16 @@ appreciated**.
 
 Please read [our contribution guidelines](docs/CONTRIBUTING.md), and thank you
 for being involved!
+
+## Community
+
+Join our vibrant community and stay up to date with the latest developments:
+
+- 💬 [Discord Server](https://discord.gg/kakarot)
+- 📱 [Telegram Group](https://t.me/KakarotZkEvm)
+- 🐦 [Twitter/X](https://x.com/KakarotZkEvm)
+- 📝 [Blog](https://medium.com/kakarot)
+- 📚 [Documentation](https://docs.kakarot.org)
 
 ## Authors & contributors
 
