@@ -17,6 +17,17 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/KakarotZkEvm?style=social)](https://x.com/KakarotZkEvm)
 [![Discord](https://img.shields.io/discord/984015101017346058?color=%235865F2&label=Discord&logo=discord&logoColor=%23fff)](https://discord.gg/kakarotzkevm)
 
+## Update
+
+This repository - an EVM emulator on Starknet - is frozen at latest audited and
+tested commit: `5caaf28e6188ea8b3726a2db5d4940ecb5afd898`. The team is working
+on [keth](https://github.com/kkrt-labs/keth), an Ethereum Prover. Contact us on
+[Twitter](https://x.com/KakarotZkEvm) or
+[Discord](https://discord.com/invite/kakarotzkevm) if you would like to use the
+EVM emulator on Starknet in production.
+
+## Introduction
+
 This repository contains the set of Cairo (Cairo compiler version Zero) programs
 that implement the core EVM logic of Kakarot zkEVM.
 
